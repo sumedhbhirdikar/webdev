@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../calculate/.idea/calculate.iml" filepath="$PROJECT_DIR$/../calculate/.idea/calculate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../djangorevision/.idea/djangorevision.iml" filepath="$PROJECT_DIR$/../djangorevision/.idea/djangorevision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../success/.idea/success.iml" filepath="$PROJECT_DIR$/../success/.idea/success.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/webdev.iml" filepath="$PROJECT_DIR$/.idea/webdev.iml" />
+    </modules>
+  </component>
+</project>

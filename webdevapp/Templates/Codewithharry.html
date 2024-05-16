@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Textutils</title>
+
+</head>
+<body>
+<main>
+    <hr>
+    <h1>Textutils</h1><br>
+    <hr><hr>
+    <p>Get all Text related tools at a click!</p><br>
+    <hr>
+    <form action="/analyze/" method="post"> {% csrf_token %}
+        <textarea name="text" id="1" placeholder="enter text" style="width: 1340px; height: 62px;"></textarea><br>
+        <hr>
+        <label for="a">
+        <input type="checkbox"id="a" name="remove_punc">Remove punctuations<br>
+        </label>
+        <hr>
+        <label for="b">
+        <input type="checkbox"id="b" name="uppercase">Uppercase<br>
+        </label>
+        <hr>
+        <label for="c">
+        <input type="checkbox"id="c" name="newlinerremove">Blank(new) lines remover<br>
+        </label>
+        <hr>
+         <label for="d">
+        <input type="checkbox"id="d" name="spaceremover">Space remover<br>
+        </label>
+        <hr>
+        <label for="e">
+            <input type="checkbox" id="e" name="Charactercounter">Character counter<br>
+        </label>
+        <hr>
+        <label for="f">
+            <input type="checkbox" id="f" name="calc">Calculate(Integer values only)<br>
+        </label>
+        <hr>
+        <button type="submit" class="btn btn-outline-dark">submit</button>
+        <hr><hr>
+    </form>
+
+</main>
+</body>
+</html>
